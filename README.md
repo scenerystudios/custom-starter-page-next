@@ -10,4 +10,7 @@ This one here is a custom starter page for chrome (just a fun side project) whic
 
 ## Currently in dev.
 
+- fix some styling issues/site overflow/ profilepic not loading/ etc.
+- link up the fav's
+- editing capability
 - pretty much everything lol
