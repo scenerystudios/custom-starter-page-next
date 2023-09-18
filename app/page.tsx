@@ -7,7 +7,9 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   const [searchTerm, setSearchTerm] = React.useState("");
 
-  const handleChange = (e) => {
+  const handleChange = (e: {
+    target: { value: React.SetStateAction<string> };
+  }) => {
     setSearchTerm(e.target.value);
   };
 
@@ -17,7 +19,7 @@ export default function Home() {
     window.location.href = searchUrl;
   };
 
-  const handleKeyPress = (e) => {
+  const handleKeyPress = (e: { key: string }) => {
     if (e.key === "Enter") {
       handleSubmit();
     }
