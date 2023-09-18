@@ -4,9 +4,9 @@ This one here is a custom starter page for chrome (just a fun side project) whic
 
 ## What works by now?
 
-- The styling is working and responsive
-- the search functionality is there
-- a dropdown menu is added which houses a few fav. links
+- The styling is working and responsive (for testing / not prod.)
+- the search functionality is working
+- a dropdown menu is added which houses a few fav. links (not linked yet)
 
 ## Currently in dev.
 
