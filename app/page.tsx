@@ -17,6 +17,12 @@ export default function Home() {
     window.location.href = searchUrl;
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleSubmit();
+    }
+  };
+
   return (
     <main>
       <Navbar />
@@ -30,6 +36,7 @@ export default function Home() {
               id="search-input"
               value={searchTerm}
               onChange={handleChange}
+              onKeyPress={handleKeyPress}
               placeholder="Type here"
               className="input input-bordered w-full max-w-xs mt-5"
             />
